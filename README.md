@@ -64,23 +64,80 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-RSS-Bridge is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
+RSS-Bridge is an open-source PHP project that provides RSS/Atom feeds for websites that do not natively offer them. By running the bridge on a server, users can generate feeds for a wide variety of sites, including social media, video platforms, news sites, and many niche services. The project ships with hundreds of individual “bridges” that scrape content and expose it as standard RSS, enabling easy aggregation in any feed reader. RSS-Bridge can be self-hosted, customized, and extended, making it a flexible tool for developers and hobbyists who need universal access to web content through RSS.
 
-**Areas:** Company
+**Areas:** OpenSource · PHP · RSS · Aggregator · SelfHosted
 
 ## RSS-Bridge on APIs.io
 
 Everything profiled for RSS-Bridge is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/rss-bridge/](https://apis.io/providers/rss-bridge/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [RSS-Bridge API](https://apis.io/apis/rss-bridge/rss-bridge-api/) — RSS-Bridge provides a web interface that generates RSS/Atom feeds for websites; it does not expose a public machine‑readable API.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Rss Bridge Authentication](https://apis.io/security/rss-bridge/rss-bridge-authentication/)
+- [Rss Bridge Domain Security](https://apis.io/security/rss-bridge/rss-bridge-domain-security/)
 
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://rss-bridge.org/)
+- [Documentation](https://rss-bridge.github.io/rss-bridge/)
+- [Getting started](https://rss-bridge.github.io/rss-bridge/)
+- [GitHub](https://github.com/RSS-Bridge)
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/rss-bridge/](https://apis.io/providers/rss-bridge/).
+**Kin Score 17.3** — emerging · rubric 0.25.0 · scored 2026-10-28
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 0.0 |
+
+**Agent readiness 5.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/rss-bridge/](https://apis.io/providers/rss-bridge/).
 
 ## How this profile is made
 
